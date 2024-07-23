@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/register"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Register"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Menu1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu2"
+        android:icon="@drawable/baseline_search_24"
+        android:title="menu2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu3"
+        android:icon="@drawable/baseline_search_24"
+        android:title="menu3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu4"
+        android:icon="@drawable/baseline_search_24"
+        android:title="menu4"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/submenu1"
+                android:title="submenu1" />
+            <item
+                android:id="@+id/submenu2"
+                android:title="submenu2" />
+            <item
+                android:id="@+id/submenu3"
+                android:title="submenu3" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:title="logout" />
+
+</menu>
